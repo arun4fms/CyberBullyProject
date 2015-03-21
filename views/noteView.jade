@@ -4,7 +4,4 @@ block content
     h4= "Picture posted by " + item.profile_owner_id + " with picture id of " + item.id + ". "
     img(src= item.image_url)
     p= item.comment_1
-
-    each x in item.comments
-     p= item.comment[x]
     
