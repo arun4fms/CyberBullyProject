@@ -1,7 +1,7 @@
 extends layout
 
 block content
-    h1= item.profile_owner_id
+    h4= "Picture posted by " + item.profile_owner_id + " with picture id of " + item.id + ". "
     img(src= item.image_url)
     p= item.comment_1
 
